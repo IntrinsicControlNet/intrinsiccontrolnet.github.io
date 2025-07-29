@@ -165,7 +165,6 @@ Beyond this, we notice that there is a domain gap between the synthetic and real
 </section>
 <!-- End paper abstract -->
 
-
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -173,7 +172,26 @@ Beyond this, we notice that there is a domain gap between the synthetic and real
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="overview_iccv_cr.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Overview of our pipeline. Given the intrinsic images from the graphic engine (a), the other predicted from refined Intrinsic Image Diffusion (b) and predicted HDR panoramic environment map from StyleLight (c), they are divided into two groups, material and geometry. We depict the synthetic and real data flows using dashed and solid lines, respectively. The input pass through a matrix switch to form the comprehensive control conditions (Section 3.2). Then, a tailored conditional encoder is employed to extract the diverse condition features. The features are fed separately into two ControlNets, each controlling the latent diffusion model to generate material and geometry information for the final realistic images. These are then followed by a realistic discriminator that further enhances the realism of the generated results. (Section 3.4).
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+  
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="overview_iccv_cr.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
