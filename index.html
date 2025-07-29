@@ -140,7 +140,7 @@
     <div class="hero-body">
       <img src="teaser_iccv.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        We propose an intrinsic controllable generative framework that synthesizes realistic images from 3D assets, similar to a rendering engine, using intrinsic images like material, geometric, and lighting information as network inputs. This approach greatly simplifies intrinsic editing tasks for real images, such as object insertion and removal, while achieving better results compared to existing methods.
       </h2>
     </div>
   </div>
@@ -155,7 +155,8 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Realistic images are usually produced by simulating light transportation results of 3D scenes using rendering engines. This framework can precisely control the output but is usually weak at producing photo-like images. Alternatively, diffusion models have seen great success in photorealistic image generation by leveraging priors from large datasets of real-world images but lack affordance controls. Promisingly, the recent ControlNet enables flexible control of the diffusion model without degrading its generation quality. In this work, we introduce IntrinsicControlNet, an intrinsically controllable image generation framework that enables easily generating photorealistic images from precise and explicit control, similar to a rendering engine, by using intrinsic images such as material properties, geometric details, and lighting as network inputs.
+Beyond this, we notice that there is a domain gap between the synthetic and real-world datasets, and therefore, naively blending these datasets yields domain confusion. To address this problem, we present a cross-domain control architecture that extracts control information from synthetic datasets, and control and content information from real-world datasets. This bridges the domain gap between real-world and synthetic datasets, enabling the blending or editing of 3D assets and real-world photos to support various interesting applications.  Experiments and user studies demonstrate that our method can generate explicitly controllable and highly photorealistic images based on the input intrinsic images.
           </p>
         </div>
       </div>
